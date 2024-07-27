@@ -74,7 +74,7 @@ const SendEmail = () => {
             <PointThirteen myDark={theme === "dark"} />
 
             <div className='text-center text-xl font-bold text-green-600 dark:text-green-500 my-6 break-words'>
-              Now you can test 👉 http://localhost:yourport/api/mail/new
+              Now you can test 👉 https://localhost:yourport/api/mail/new
             </div>
 
             <div className='dark:bg-gray-700 justify-normal bg-gray-400 text-sm p-2 rounded'>
@@ -99,7 +99,7 @@ const SendEmail = () => {
             <PointSixTeen myDark={theme === "dark"} />
 
             <div className='text-center text-xl font-bold text-green-600 dark:text-green-500 my-6 break-words'>
-              Test again 👉 http://localhost:yourport/api/mail/new
+              Test again 👉 https://localhost:yourport/api/mail/new
             </div>
 
             <Image

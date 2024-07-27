@@ -40,7 +40,7 @@ const MusicChalao = () => {
             News App
           </h1>
 
-          <audio controls src={"http://stream.zeno.fm/eo2imd7yypwuv"} />
+          <audio controls src={"https://stream.zeno.fm/eo2imd7yypwuv"} />
 
           <button onClick={loadMusic}>Load Data</button>
         </div>
