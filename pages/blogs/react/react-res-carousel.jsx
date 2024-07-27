@@ -99,7 +99,7 @@ const ReactResposiveCarousel = () => {
                   <Image
                     alt="CarouselImage1"
                     height={300}
-                    src="/images/carousel1.png"
+                    src="/images/carousel1.webp"
                     width={500}
                   />
                 </div>
@@ -107,7 +107,7 @@ const ReactResposiveCarousel = () => {
                   <Image
                     alt="CarouselImage2"
                     height={300}
-                    src={"/images/carousel2.png"}
+                    src={"/images/carousel2.webp"}
                     width={500}
                   />
                 </div>
@@ -115,7 +115,7 @@ const ReactResposiveCarousel = () => {
                   <Image
                     alt="CarouselImage3"
                     height={300}
-                    src={"/images/carousel3.png"}
+                    src={"/images/carousel3.webp"}
                     width={500}
                   />
                 </div>

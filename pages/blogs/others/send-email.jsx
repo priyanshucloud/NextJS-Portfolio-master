@@ -90,7 +90,7 @@ const SendEmail = () => {
               alt=''
               className='my-6 border border-solid border-black dark:border-white'
               height={200}
-              src='/images/screen1.png'
+              src='/images/screen1.webp'
               width={800}
             />
 
@@ -106,7 +106,7 @@ const SendEmail = () => {
               alt=''
               className='p-2 border border-black border-solid dark:border-white'
               height={500}
-              src='/images/screen2.png'
+              src='/images/screen2.webp'
               width={800}
             />
 

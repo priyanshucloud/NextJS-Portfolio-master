@@ -107,7 +107,7 @@ const FirstPost = () => {
 export default FirstPost;
 
 const BuiltInRouting = () => {
-  const newLocal = "https://res.cloudinary.com/practicaldev/image/fetch/s--DIT1rRjH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/akuks/Misc/main/Images/nextjs_routing.png";
+  const newLocal = "https://res.cloudinary.com/practicaldev/image/fetch/s--DIT1rRjH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/akuks/Misc/main/Images/nextjs_routing.webp";
   return (
     <div className="py-4">
       <p className="text-2xl pb-2">1. Built-in Routing Support</p>
@@ -144,7 +144,7 @@ const BuiltInRouting = () => {
         alt="image2"
         className="sm:w-[75%] w-[90%] m-auto mt-3"
         height={500}
-        src="https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2FTvIi0gcnHOrapoHrT3qjq%2F9039474cdf25f27125cbdbdde35f32f5%2Froute-segments-to-path-segments.png&w=1920&q=75"
+        src="https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2FTvIi0gcnHOrapoHrT3qjq%2F9039474cdf25f27125cbdbdde35f32f5%2Froute-segments-to-path-segments.webp&w=1920&q=75"
         width={800}
       />
       <p className="text-center mb-3">Image 2</p>
@@ -152,7 +152,7 @@ const BuiltInRouting = () => {
         alt="image3"
         className="sm:w-[75%] w-[90%] m-auto mt-3"
         height={500}
-        src="https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2FTvIi0gcnHOrapoHrT3qjq%2F9039474cdf25f27125cbdbdde35f32f5%2Froute-segments-to-path-segments.png&w=1920&q=75"
+        src="https://vercel.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2FTvIi0gcnHOrapoHrT3qjq%2F9039474cdf25f27125cbdbdde35f32f5%2Froute-segments-to-path-segments.webp&w=1920&q=75"
         width={800}
       />
       <p className="text-center mb-3">Image 3</p>
@@ -184,7 +184,7 @@ const FasterSpeed = () => {
       <h4 className="font-bold my-1">Why?</h4>
       <p className="text-gray-700 text-sm">
         Next.js uses Turbopack, which can updated up to 700 times faster than
-        webpack used by react.
+        .webpack used by react.
       </p>
       <h4 className="font-bold my-1">Advantage?</h4>
       <p className="text-gray-700 text-sm">
@@ -215,7 +215,7 @@ const ApiSupport = () => {
         alt="image4"
         className="sm:w-[75%] w-[90%] m-auto mt-3"
         height={500}
-        src="https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Froute-special-file.png&w=1920&q=75"
+        src="https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Froute-special-file.webp&w=1920&q=75"
         width={800}
       />
       <p className="text-center mb-3">Image 4</p>

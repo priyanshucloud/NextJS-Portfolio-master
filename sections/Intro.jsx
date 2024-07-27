@@ -90,7 +90,7 @@ const Intro = () => {
               "translate-x-[500px] transition-all opacity-0 duration-700 w-[180px] h-[300px] md:w-[240px] md:h-[400px] bg-cover m-auto md:m-0 mt-[40px] md:mt-0 bg-no-repeat"
             }
             ref={profileRef}
-            style={{ backgroundImage: "url(/images/male.png)" }}
+            style={{ backgroundImage: "url(/images/male.webp)" }}
           />
         </div>
       </section>

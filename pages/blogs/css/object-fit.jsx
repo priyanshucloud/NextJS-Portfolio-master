@@ -31,7 +31,7 @@ const ObjectFit = () => {
             </p>
 
             <div className="sm:w-[200px] sm:h-[200px] w-[150px] h-[150px] border border-solid dark:border-white border-black relative">
-              <Image alt="" fill={true} src="/images/room.jpg" />
+              <Image alt="" fill={true} src="/images/room.webp" />
             </div>
 
             <div className="text-xl mt-6 mb-2">
@@ -46,7 +46,7 @@ const ObjectFit = () => {
                 alt=""
                 className="object-contain"
                 fill={true}
-                src="/images/room.jpg"
+                src="/images/room.webp"
               />
             </div>
 
@@ -62,7 +62,7 @@ const ObjectFit = () => {
                 alt=""
                 className="object-cover"
                 fill={true}
-                src="/images/room.jpg"
+                src="/images/room.webp"
               />
             </div>
 
@@ -77,7 +77,7 @@ const ObjectFit = () => {
                 alt=""
                 className="object-none"
                 fill={true}
-                src="/images/room.jpg"
+                src="/images/room.webp"
               />
             </div>
           </div>

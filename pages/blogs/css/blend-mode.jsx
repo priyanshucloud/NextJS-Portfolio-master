@@ -58,7 +58,7 @@ const BlendMode = () => {
               className="w-52 h-52 bg-contain mt-8"
               style={{
                 backgroundBlendMode: blendMode,
-                backgroundImage: "url(/images/circle.png), url(/images/x.png)",
+                backgroundImage: "url(/images/circle.webp), url(/images/x.webp)",
               }}
             />
           </div>
