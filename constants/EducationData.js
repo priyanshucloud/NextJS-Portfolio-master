@@ -2,7 +2,7 @@ export const EducationData = [
     {
         name: "Bachelor of Science",
         image:
-            "https://res.cloudinary.com/dhixp5pnk/image/upload/v1696219056/edekjqivqlnsyg8pfmxw.webp",
+            "https://res.cloudinary.com/dioaetdwp/image/upload/f_auto,q_auto/zgndbwvorwzapmblxgen",
         schoolOrCollege: "St.Soldier Institute Of Engineering & Technology",
         fromTo: "2023 - Ongoing",
         statusOrPrecentage: "82.12%",
@@ -10,7 +10,7 @@ export const EducationData = [
     {
         name: "Diploma",
         image:
-            "https://res.cloudinary.com/dhixp5pnk/image/upload/v1696219649/tnverjapfr4slg7fnfcw.webp",
+            "https://res.cloudinary.com/dioaetdwp/image/upload/f_auto,q_auto/zgndbwvorwzapmblxgen",
         schoolOrCollege: "Mehr Chand Polytechnic Colage Jalandhar",
         fromTo: "2020",
         statusOrPrecentage: "93.33%",
@@ -18,7 +18,7 @@ export const EducationData = [
     {
         name: "Secondary Examination",
         image:
-            "https://res.cloudinary.com/dhixp5pnk/image/upload/v1696219649/tnverjapfr4slg7fnfcw.webp",
+            "https://res.cloudinary.com/dioaetdwp/image/upload/f_auto,q_auto/zgndbwvorwzapmblxgen",
         schoolOrCollege: "BSF Sr Sec School Jalandhar",
         fromTo: "2019",
         statusOrPrecentage: "93.33%",
