@@ -48,10 +48,6 @@ export const TechStackData = [
         icon: <BsGithub className="md:text-4xl text-2xl" color="#000000" />
       },
       {
-        name: "Server",
-        icon: <FaServer className="md:text-4xl text-2xl" color="#673ab7" />,
-      },
-      {
         name: "Nginx",
         icon: <SiNginx className="md:text-4xl text-2xl" color="#4caf50" />,
       },
@@ -59,15 +55,6 @@ export const TechStackData = [
         name: "Virtual Machine",
         icon: <SiVirtualbox className="md:text-4xl text-2xl" color="#039be5" />,
       },
-      {
-        name: "Cloud Computing",
-        icon: <TbCloudComputing className="md:text-4xl text-2xsl" color="#000000" />
-      },
-      {
-        name: "Learning",
-        icon: <SiFuturelearn className="md:text-4xl text-2xsl" color="#000000" />
-      },
-      
     ],
     Good: [
       {
