@@ -19,8 +19,4 @@ export const NavbarMenu = [
         name: "Experience",
         link: "#experience",
     },
-    {
-        name: "Project",
-        link: "#project",
-    },
 ];

@@ -281,14 +281,14 @@ const PointNine = ({ myDark }) => {
       let sender = nodemailer.createTransport({
           service: 'Gmail',
           auth: {
-              user: 'iamshiv20032003@gmail.com',
+              user: 'shaanedu1903@gmail.com',
               pass: process.env.PASS
           }
       })
   
       let mail = {
-          from: 'iamshiv20032003@gmail.com',
-          to: "shivrajg20032003@gmail.com",
+          from: 'shaanedu1903@gmail.com',
+          to: "admin@priyanshusharma.tech",
           subject: "test",
           text: "Send a email using node.js"
       }
@@ -476,13 +476,13 @@ const PointFourteen = ({ myDark }) => {
       let sender = nodemailer.createTransport({
           service: 'Gmail',
           auth: {
-              user: 'iamshiv20032003@gmail.com',
+              user: 'shaanedu1903@gmail.com',
               pass: process.env.PASS
           }
       })
   
       let mail = {
-          from: 'iamshiv20032003@gmail.com',
+          from: 'shaanedu1903@gmail.com',
           to: email,
           subject: subject,
           text: text,

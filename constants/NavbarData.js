@@ -17,11 +17,6 @@ export const NavbarData = [
         icon: <FaLaptopCode />
     },
     {
-        name: "Projects",
-        link: "#projects",
-        icon: <CgClapperBoard />
-    },
-    {
         name: "Blogs",
         link: "#blogs",
         icon: <BsPenFill />
