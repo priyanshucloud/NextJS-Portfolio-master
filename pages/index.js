@@ -26,13 +26,13 @@ const Home = () => {
         <title>Priyanshu&apos;s Portfolio</title>
         {/* <!-- Primary Meta Tags --> */}
         <meta content="Priyanshu's Portfolio" name="title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
+        <meta content="Explore the best Next.js and React.js portfolio by Priyanshu. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta content="website" property="og:type" />
         <meta content="https://www.priyanshusharma.tech" property="og:url" />
         <meta content="Priyanshu's Portfolio" property="og:title" />
-        <meta content="Explore the best Next.js and React.js portfolio by Shivraj Gurjar. Featuring simple, dark and light theme designs and mobile responsiveness." property="og:description" />
+        <meta content="Explore the best Next.js and React.js portfolio by Priyanshu. Featuring simple, dark and light theme designs and mobile responsiveness." property="og:description" />
         <meta content="https://www.priyanshusharma.tech" property="og:image" />
 
         {/* <!-- Twitter --> */}
