@@ -76,7 +76,7 @@ const Intro = () => {
               {/* Download CV Button */}
               <Link
                 className='text-xl font-semibold rounded border border-red-500 hover:text-white hover:bg-red-500 px-2 py-1'
-                href='https://drive.google.com/file/d/1jAeUeSkYuyFv0BTavqQhBXauEtSKP8CR/view'
+                href='https://tempstoragefiles03.blob.core.windows.net/mecontainer/myresume.pdf'
                 target='_blank'
               >
                 Download CV
