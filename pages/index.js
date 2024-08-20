@@ -1,8 +1,6 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import dynamic from "next/dynamic";
-
-import ShoveeModal from "@/utils/ShoveeModal";
 import About from "@/sections/about";
 import Education from "@/sections/education";
 import Experience from "@/sections/experience";
@@ -10,12 +8,8 @@ const Navbar = dynamic(() => import("@/layout/navbar/Navbar"))
 const Footer = dynamic(() => import("@/layout/footer/Footer"))
 const Intro = dynamic(() => import("@/sections/Intro"))
 const Skills = dynamic(() => import("@/sections/Skills"))
-const LatestBlogs = dynamic(() => import("@/sections/LatestBlogs"))
-const Apps = dynamic(() => import("@/sections/Apps"))
 const SendMail = dynamic(() => import("@/utils/SendMail"))
 const SocialMedia = dynamic(() => import("@/utils/SocialMedia"))
-const ChatSystem = dynamic(() => import("@/utils/ChatSystem"))
-const Feedback = dynamic(() => import("@/utils/Feedback"))
 
 const Home = () => {
 
@@ -47,7 +41,7 @@ const Home = () => {
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
         {/* <!-- Favicon --> */}
-        <link href="https://shiv-s-portfolio.vercel.app/favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="https://priyanshustorage0.blob.core.windows.net/public/favicon.ico" rel="icon" type="image/x-icon" />
 
       </Head>
       <div>
@@ -66,27 +60,15 @@ const Home = () => {
           <Experience />
           {/* SocialMedia */}
           <SocialMedia />
-
-          {/* LatestBlog */}
-          <LatestBlogs />
-          {/* Apps */}
-          <Apps />
           {/* Send Mail */}
           <SendMail />
           {/* Footer */}
           <Footer />
           <div className="z-40">
-            {/* tawk.to Chat System */}
-            <ChatSystem />
           </div>
-          {/* Feedback Modal */}
-          <Feedback />
-          {/* ShoveeModal */}
-          <ShoveeModal />
         </div>
       </div>
     </Fragment>
   );
 }
-
 export default Home

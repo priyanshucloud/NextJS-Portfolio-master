@@ -113,10 +113,6 @@ export const TechStackData = [
         icon: <FaJava className="md:text-4xl text-2xl" color="#547c99" />
       },
       {
-        name: "SASS",
-        icon: <DiSass className="md:text-4xl text-2xl" color="#f06292" />,
-      },
-      {
         name: "MySQL",
         icon: <GrMysql className="md:text-4xl text-2xl" color="#08668e" />
       },

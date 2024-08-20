@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /admin
-Disallow: /shaan
-Allow: /
-Sitemap: http://www.priyanshusharma.tech/sitemap.xml
