@@ -289,7 +289,7 @@ const PointNine = ({ myDark }) => {
       let mail = {
           from: 'shaanedu1903@gmail.com',
           to: "admin@priyanshusharma.tech",
-          subject: "test",
+          subject: "From Website",
           text: "Send a email using node.js"
       }
   
