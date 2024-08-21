@@ -47,7 +47,7 @@ const Navbar = () => {
         style={{ top: top }}
       >
         {/* Name Logo */}
-        <p className='text-gray-400 flex'>
+        <p className='text-black-400 flex'>
           <span className='text-lg font-bold'>PRIYANSHU</span> <DiTechcrunch />
         </p>
         <div className='h-full flex gap-4'>
