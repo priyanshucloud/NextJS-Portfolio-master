@@ -64,19 +64,18 @@ const Navbar = () => {
           ))}
         </div>
         {/* Toggle Theme button */}
-        <div className="flex items-center gap-4">
-  <button
-    className="text-xl text-[#c72c6c] dark:text-[#07d0e5] hover:scale-110"
-    onClick={setThemeFun}
-    aria-label="Toggle Theme"
-  >
-    {theme === "dark" ? (
-      <TbBulbFilled />
+        <div className='flex items-center gap-4'>
+          <button
+            className='text-xl text-[#c72c6c] dark:text-[#07d0e5] hover:scale-110'
+            onClick={setThemeFun}
+          >
+            {theme === "dark" ? (
+              <TbBulbFilled />
             ) : (
-      <BsFillLightningChargeFill />
-          )}
-      </button>
-      </div>
+              <BsFillLightningChargeFill />
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Header */}

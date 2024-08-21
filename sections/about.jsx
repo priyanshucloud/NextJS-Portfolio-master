@@ -52,17 +52,17 @@ const About = () => {
         <h2 className='text-3xl font-bold text-center pt-4 pb-8 flex justify-center items-center gap-3'>
           <FaUserCheck /> About me
         </h2>
-        <div className='pb-[100px] px-[50px] md:px-[10px] lg:px-[20px] md:flex gap-[30px]'>
+        <div className='pb-[30px] px-[20px] md:px-[100px] lg:px-[200px] md:flex gap-[50px]'>
           {/* Person Image */}
           <Image
             alt='about image'
             className={
               "shadow-zinc-300 dark:shadow-zinc-700 shadow-sm transition-all duration-700 translate-x-[-900px] bg-blue-200 m-auto bg-cover bg-no-repeat max-h-[500px] rounded object-contain"
             }
-            height={100}
+            height={350}
             ref={profile2Ref}
-            src='https://priyanshustorage0.blob.core.windows.net/public/MYProfile.webp'
-            width={400}
+            src='https://res.cloudinary.com/dioaetdwp/image/upload/f_auto,q_auto/my_image_pgzvub'
+            width={350}
           />
           <div
             className='text-lg translate-x-[900px] opacity-0 transition-all duration-700 mt-4 md:mt-0 md:w-[50%] text-center md:text-left rounded'
@@ -119,10 +119,24 @@ const About = () => {
                   1 Year{" "}
                 </p>
               </div>
+              {/* Project */}
+              <div className='w-fit px-4 py-2 mt-5 border border-gray-400 rounded flex flex-col items-center gap-2'>
+                <div className='flex gap-3 items-center'>
+                  <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                    Projects
+                  </p>
+                  <p>
+                    <BsMenuAppFill />
+                  </p>
+                </div>
+                <p className='text-center md:text-left text-[#c72c6c] dark:text-[#07d0e5]'>
+                  3{" "}
+                </p>
+              </div>
             </div>
 
             <div className='mt-5 justify-evenly text-justify'>
-              <p className='text-gray-700 dark:text-gray-300'>
+              <p className='text-gray-600 dark:text-gray-300'>
               Cloud computing is a transformative technology that I love for its ability to offer unparalleled flexibility, scalability, and efficiency. It empowers individuals and businesses to access vast computing resources on demand, without the need for significant upfront investments in hardware or infrastructure. With cloud computing, data and applications can be accessed from anywhere in the world, fostering collaboration and innovation. The seamless integration of services, such as storage, processing power, and artificial intelligence, makes it easier to develop and deploy solutions at a rapid pace. The cloud’s ability to dynamically adjust to workloads also ensures that resources are used optimally, reducing waste and costs. Overall, cloud computing is a cornerstone of modern technology, driving progress and enabling a more connected and efficient world.
               </p>
             </div>
