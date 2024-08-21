@@ -1,7 +1,6 @@
 import { AiOutlineInstagram } from "react-icons/ai";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsTwitter } from "react-icons/bs";  // Import Twitter icon
 import { FaLinkedinIn } from "react-icons/fa";
-import { IoClose } from "react-icons/io5";
 
 export const SocialMediaData = [
   {
@@ -12,8 +11,8 @@ export const SocialMediaData = [
     'aria-label': "Visit Instagram"
   },
   {
-    icon: <IoClose />,
-    color: "#0f0f0f",
+    icon: <BsTwitter />,  // Correct icon for Twitter
+    color: "#1DA1F2",     // Twitter's official color
     link: "https://twitter.com",
     'aria-label': "Visit Twitter"
   },  
@@ -21,7 +20,7 @@ export const SocialMediaData = [
     icon: <FaLinkedinIn />,
     color: "#0072b1",
     link: "https://www.linkedin.com/in/",
-    'aria-label': "Visit Linkdin"
+    'aria-label': "Visit LinkedIn"
   },
   {
     icon: <BsGithub />,
