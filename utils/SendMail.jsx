@@ -49,7 +49,7 @@ const SendMail = () => {
           <form action='' onSubmit={sendMessage}>
             <div className='flex flex-col gap-4 w-[90%] md:w-[35%] m-auto'>
               <input
-                className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
+                className='text-xl font-semibold rounded border border-red-500 px-2 py-1'
                 id='name'
                 name='name'
                 onChange={collectData}
@@ -57,7 +57,7 @@ const SendMail = () => {
                 value={formData.name || ""}
               />
               <input
-                className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
+                className='text-xl font-semibold rounded border border-red-500 px-2 py-1'
                 id='email'
                 name='email'
                 onChange={collectData}
@@ -65,7 +65,7 @@ const SendMail = () => {
                 value={formData.email || ""}
               />
               <input
-                className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
+                className='text-xl font-semibold rounded border border-red-500 px-2 py-1'
                 id='subject'
                 name='subject'
                 onChange={collectData}
@@ -74,7 +74,7 @@ const SendMail = () => {
               />
 
               <textarea
-                className='dark:bg-black border dark:border-[#07d0e5] border-[#c72c6c] p-2 rounded'
+                className='text-xl font-semibold rounded border border-red-500 px-2 py-1'
                 id='message'
                 name='message'
                 onChange={collectData}
@@ -84,7 +84,7 @@ const SendMail = () => {
               />
 
               <button
-                className='font-bold text-white dark:bg-[#0ab0c2] disabled:cursor-default p-2 rounded dark:hover:bg-[#078795] bg-[#f91071] hover:bg-[#c72c6c]'
+                className='text-xl font-semibold rounded border border-red-500 hover:bg-red-500 px-2 py-1'
                 disabled={sending}
                 type='submit'
               >
