@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-        <title>Priyanshu&apos;s Portfolio</title>
+        <title>Priyanshu&apos;s Portfolio</title> 
         {/* <!-- Primary Meta Tags --> */}
         <meta content="Priyanshu's Portfolio" name="title" />
         <meta content="Explore the best Next.js and React.js portfolio by Priyanshu. Featuring simple, dark and light theme designs and mobile responsiveness." name="description" />
