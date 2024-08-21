@@ -1,6 +1,7 @@
 "use client";
 import React, { Fragment, useContext, useEffect, useState } from "react";
 import Link from "next/link";
+import { DiTechcrunch } from "react-icons/di";
 import { BsFillLightningChargeFill } from "react-icons/bs";
 import { TbBulbFilled } from "react-icons/tb";
 import MobileNavbar from "./SidebarMobile";
@@ -47,7 +48,7 @@ const Navbar = () => {
       >
         {/* Name Logo */}
         <p className='text-gray-400 flex'>
-          <span className='text-lg font-bold'>PRIYANSHU</span>
+          <span className='text-lg font-bold'>PRIYANSHU</span> <DiTechcrunch />
         </p>
         <div className='h-full flex gap-4'>
           {/* Navbar Links */}
@@ -66,7 +67,7 @@ const Navbar = () => {
         {/* Toggle Theme button */}
         <div className="flex items-center gap-4">
   <button
-    className="text-xl text-[#c72c6c] dark:text-[#07d0e5] hover:scale-110"
+    className="daynightbutton text-xl text-[#c72c6c] dark:text-[#07d0e5] hover:scale-110"
     onClick={setThemeFun}
     aria-label="Toggle Theme"
   >
