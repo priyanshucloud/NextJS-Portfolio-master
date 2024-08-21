@@ -1,6 +1,6 @@
 import React, { Fragment, useContext } from "react";
 import Link from "next/link";
-import { MdFeedback } from "react-icons/md";
+// import { MdFeedback } from "react-icons/md";
 
 import { SocialMediaData } from "@/constants/SocialMediaData";
 import { PortfolioContext } from "@/contextApi/PortfolioContext";
@@ -10,7 +10,7 @@ const SocialMedia = () => {
 
   return (
     <Fragment>
-      <div className='absolute left-14 bottom-10 flex flex-col gap-4 z-10'>
+      <div className='absolute left-10 bottom-20 flex flex-col gap-5 z-10'>
         {SocialMediaData.map((social, key) => (
           <Link className='w-fit' href={social.link} key={key}>
             <div
@@ -20,14 +20,7 @@ const SocialMedia = () => {
               {social.icon}
             </div>
           </Link>
-        ))}
-        <button
-          className='p-2 rounded-full text-xl bg-[#f2925a] text-white'
-          onClick={() => setShowModal(true)}
-        >
-          <MdFeedback />
-        </button>
-      </div>
+        ))}</div>
     </Fragment>
   );
 };
