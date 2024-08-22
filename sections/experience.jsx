@@ -94,6 +94,11 @@ const Experience = () => {
                         : experience.description
                     )
                   }
+                  aria-label={
+                    desc === experience.description
+                      ? "Collapse description"
+                      : "Expand description"
+                  }
                   style={
                     desc === experience.description
                       ? { transform: "rotate(180deg)" }
@@ -117,6 +122,11 @@ const Experience = () => {
                         : experience.description
                     )
                   }
+                  aria-label={
+                    desc === experience.description
+                      ? "Collapse description"
+                      : "Expand description"
+                  }
                   style={
                     desc === experience.description
                       ? { transform: "rotate(180deg)" }
@@ -126,7 +136,7 @@ const Experience = () => {
                   <BsArrowDownCircle size={22} />
                 </button>
                 <div
-                  className='md:w-[45%] cursor-pointer  transition-all duration-500 p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-smrounded'
+                  className='md:w-[45%] cursor-pointer  transition-all duration-500 p-3 border border-zinc-300 dark:border-zinc-700 shadow-zinc-300 dark:shadow-zinc-700 shadow-sm rounded'
                   onClick={() =>
                     setDesc(
                       desc === experience.description
