@@ -15,6 +15,7 @@ const NavbarMobile = ({ setShowMenu, setThemeFun, theme, showMenu, top }) => {
         <button
           className='text-black dark:text-white text-3xl font-semibold'
           onClick={() => setShowMenu(!showMenu)}
+          aria-label={showMenu ? "Close menu" : "Open menu"}
         >
           <GiHamburgerMenu />
         </button>
@@ -30,6 +31,7 @@ const NavbarMobile = ({ setShowMenu, setThemeFun, theme, showMenu, top }) => {
         <button
           className='text-[#c72c6c] dark:text-[#07d0e5] text-2xl font-semibold hover:scale-110'
           onClick={setThemeFun}
+          aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
         >
           {theme === "dark" ? <TbBulbFilled /> : <BsFillLightningChargeFill />}
         </button>
