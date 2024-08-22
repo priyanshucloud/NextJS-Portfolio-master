@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 import { IoMdClose } from "react-icons/io";
-
+import { DiTechcrunch } from "react-icons/di";
 import { NavbarMenu } from "./NavbarItems";
 
 const MobileNavbar = ({ showMenu, setShowMenu }) => {
@@ -25,9 +25,9 @@ const MobileNavbar = ({ showMenu, setShowMenu }) => {
               <div className='text-white w-8 h-8 bg-[#c72c6c] dark:bg-[#07d0e5] rounded-full flex justify-center items-center'>
                 S
               </div>
-              <p className='text-gray-400 flex'>
-                <span className='text-lg font-bold'>Priyanshu</span>
-              </p>
+              <p className='text-black-400 flex'>
+          <span className='text-lg font-bold'>PRIYANSHU</span> <DiTechcrunch />
+        </p>
             </div>
 
             {/* Sidebar Close button */}
