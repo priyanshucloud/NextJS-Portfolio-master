@@ -11,7 +11,7 @@ const SocialMedia = () => {
     <Fragment>
       <div className='social-media-container absolute left-10 bottom-20 flex flex-col gap-5 z-10'>
         {SocialMediaData.map((social, index) => (
-          <Link href={social.link} key={index} className='social-media-link'>
+          <Link aria-label={social.ariaLabel} href={social.link} key={index} className='social-media-link'>
             <div
               className='social-media-icon p-2 rounded-full text-xl text-white'
               style={{ background: social.color }}
