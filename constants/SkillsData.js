@@ -52,7 +52,7 @@ export const TechStackData = [
         icon: <SiNginx className="md:text-4xl text-2xl" color="#4caf50" />,
       },
       {
-        name: "Virtual Machine",
+        name: "VM",
         icon: <SiVirtualbox className="md:text-4xl text-2xl" color="#039be5" />,
       },
     ],
